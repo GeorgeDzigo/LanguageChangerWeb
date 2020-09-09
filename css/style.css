@@ -1,0 +1,167 @@
+body{
+    overflow-y:hidden;
+    margin: 0px;   
+}
+
+/* HEADER: CONTAINER,NAV, UL, LI, A*/
+
+/* CONTAINER */
+
+.container-img{
+    width: 150px;
+    margin: 0 auto;
+}
+/* CONTAINER */
+/* NAV-UL */
+.menu-ul{
+    display:flex;
+    justify-content: center;
+    margin-top: -60px;
+}
+/* NAV-UL */
+
+/* NAV-LI */
+.nav-li{
+    list-style: none;   
+}
+.menu-li:after{
+    content: "";
+    width: 2px;
+    height: 10px;
+    background-color: black;    
+}
+.menu-li:after :last-child{ 
+    display: none;
+}
+
+/* NAV-LI */
+
+/* NAV-A */
+.menu-a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;        
+}
+/* NAV-A */
+/* LANGUAGE CHANGER */
+
+/* CONTAINER */
+/*  LANGUAGE UL */
+.language{
+    display:flex;
+    justify-content: flex-end;
+    margin-top: -25px;
+    margin-right: 50px;
+}
+/* LANGUAGE-UL */
+
+/* LANGUAGE  LI */
+
+ .lan-container{
+    display: flex;
+     
+ }
+.EN-li{
+    list-style: none;  
+    width: 20px;
+    margin-right: 10px;
+    
+}
+.GE-li{
+    list-style: none;  
+    width: 20px;
+    margin-right: 10px; 
+}
+.GR-li{
+    list-style: none;   
+    width: 20px;
+    margin-right: 10px;
+}
+.EN-li:after{
+    content: "";
+    width: 2px;
+    height: 10px;
+    background-color: black;    
+}
+.GE-li:after{
+    content: "";
+    width: 2px;
+    height: 10px;
+    background-color: black;    
+}
+.GR-li:after{
+    content: "";
+    width: 2px;
+    height: 10px;
+    background-color: black;    
+}
+.EN-li:after :last-child{ 
+    display: none;
+}
+.GE-li:after :last-child{ 
+    display: none;
+}
+.GR-li:after :last-child{ 
+    display: none;
+}
+
+/* LANGUAGE LI */
+
+/* LANGUAGE A */
+.EN-a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;        
+}
+.GE-a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;        
+}
+.GR-a{
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;        
+}
+/* LANGUAGE A */
+
+/* LANGUAGE CHANGER */
+
+
+/* SOCIAL LINKS */
+.social-ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 250px;
+}
+.social-li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: -20px;
+    width: 20px;
+}
+/* SOCIAL LINKS COLORING */
+.fa-facebook-official{
+    color: #4267b2;
+}
+.fa-youtube{
+    color: #ff0101;
+}
+.fa-twitter{
+color: #1da1f2;
+}
+/* SOCIAL LINKS COLORING */
+/* SOCIAL LINKS */
+/* HEADER: CONTAINER,NAV, UL, LI, A*/
+
+/* <==============-_-SECTION-_-===============> */
+
+/* SECTION */
+.sliderWrapper{
+    display: flex;
+    justify-content: space-around;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+}
+/* SECTION */

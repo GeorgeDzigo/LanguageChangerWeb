@@ -45,6 +45,6 @@ setSlider(0);
 setInterval(function () { 
     right();
     setSlider(counter);
-}, 1000);
+}, 1500);
 
 

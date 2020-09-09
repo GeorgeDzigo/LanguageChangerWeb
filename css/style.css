@@ -1,6 +1,6 @@
 body{
-    overflow-y:hidden;
-    margin: 0px;   
+    margin: 0px; 
+    overflow: hidden;  
 }
 
 /* HEADER: CONTAINER,NAV, UL, LI, A*/
@@ -165,3 +165,17 @@ color: #1da1f2;
     margin: 0 auto;
 }
 /* SECTION */
+
+
+/* Slider */
+#slider-holder{
+    margin-top: 19px;
+    height: 100%;
+    width: 100%;
+}
+#slider {
+  width: 100%;
+}
+#slider img {
+    width:100%
+}
